@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('👋 Hello world🌍, Welcome to 🦄 GogoAnime API 🧬 </br> Available routes : /Popular , /NewSeasons , /search/:query , /getAnime/:animeId , /getEpisode/:episodeId')
+    res.send('this gogo api was made by Dhanush-git/Gogoanime-API')
 })
 
 app.get('/Popular/:page', async (req, res) => {
